@@ -10,7 +10,7 @@
 		<link rel="stylesheet" href="./stylesheets/header.css" />
 		<link rel="stylesheet" href="./stylesheets/hamburger.css" />
 		<link rel="stylesheet" href="./stylesheets/profile.css" />
-		<link rel="stylesheet" href="./stylesheets/modal.css" />
+		<link rel="stylesheet" href="./stylesheets/drawer.css" />
 		<link rel="stylesheet" href="./stylesheets/projects.css" />
 		<link rel="stylesheet" href="./stylesheets/skills.css" />
 		<link rel="stylesheet" href="./stylesheets/contact.css" />
@@ -120,24 +120,22 @@
 					empower people and expand the ways we
 					<mark>interact with computers</mark>.
 				</p>
-
 				<div class="about-more">
-					<!-- The Modal Button -->
-					<button id="myBtn">ϟ + more about me</button>
+					<span class="drawer-tab" id="drawerTab">ϟ + more about me</span>
 				</div>
 			</div>
 		</div>
 
-		<!-- The Modal -->
-		<div id="myModal" class="modal">
-			<!-- Modal content -->
-			<div class="modal-content">
-				<div class="modal-header">
-					<span class="close">&times;</span>
+		<!-- Drawer (was Modal) -->
+		<div id="myDrawer" class="drawer">
+			<div class="drawer-content">
+				<div class="drawer-header">
+					<span class="drawer-arrow">⟵</span>
+					<span class="drawer-close">X</span>
 					<h2>+ more about me</h2>
 				</div>
-				<div class="modal-body">
-					<br />
+
+				<div class="drawer-body">
 					<div class="about-me">
 						<h3>whoami? 🌸</h3>
 						<p>
@@ -247,7 +245,7 @@
 						<br />
 					</div>
 				</div>
-				<div class="modal-footer">
+				<div class="drawer-footer">
 					<p>☆ Resume available upon request.</p>
 				</div>
 			</div>
@@ -763,4 +761,4 @@
 </html>
 
 <!-- My Script -->
-<script src="script.js"></script>
+<script src="script.js" defer></script>
