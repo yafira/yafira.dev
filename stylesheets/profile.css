@@ -106,3 +106,16 @@ section p {
 #laws-simplicity {
 	color: rgb(211, 132, 227);
 }
+
+#itp,
+#itp a,
+#itp a:visited,
+#itp a:active {
+	color: black;
+	background-color: #efe7fa;
+	text-decoration: none;
+}
+
+#itp:hover {
+	color: rgb(219, 161, 238);
+}
