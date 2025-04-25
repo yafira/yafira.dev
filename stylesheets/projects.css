@@ -9,7 +9,8 @@
 }
 
 .project-code h3,
-.project-design h3 {
+.project-design h3,
+.project-craft h3 {
 	width: max-content;
 	margin: 50px auto;
 }
@@ -25,6 +26,13 @@
 	background-color: rgb(227, 209, 252);
 	padding: 30px;
 	border-radius: 30% 80% 50% 60% / 80% 80% 40% 40%;
+	align-items: center;
+}
+
+.project-craft h3 {
+	background-color: rgb(232, 191, 238);
+	padding: 30px;
+	border-radius: 10% 80% 20% 60% / 50% 30% 40% 40%;
 	align-items: center;
 }
 
