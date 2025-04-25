@@ -132,6 +132,8 @@ span {
 #notes p,
 #scribble p,
 #tt p,
+#glow p,
+#ppf p,
 #news-bits p {
 	margin-bottom: 0px;
 	font-weight: bold;
