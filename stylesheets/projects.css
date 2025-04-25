@@ -118,7 +118,8 @@ span {
 #calculator,
 #notes,
 #scribble,
-#tt #news-bits {
+#tt,
+#news-bits {
 	color: #000;
 	text-decoration: none;
 	margin: 40px;
